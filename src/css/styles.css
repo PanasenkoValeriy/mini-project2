@@ -1,0 +1,29 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+
+/* Common styles */
+@import url('./base/reset.css');
+@import url('./base/common.css');
+@import url('./base/container.css');
+
+
+/* Sections style */
+@import url('./layout/header.css');
+@import url('./layout/hero.css');
+@import url('./layout/products.css');
+@import url('./layout/how-made.css');
+@import url('./layout/reviews.css');
+@import url('./layout/footer.css');
+
+/* Components */
+@import url('./components/mobile-menu.css');
+@import url('./components/backdrop.css');
+@import url('./components/franchise-modal.css');
+@import url('./components/read-more-modal.css');
+@import url('./components/location-modal.css');
+@import url('./components/buy-now-modal.css');
+@import url('./components/product-modal.css');

@@ -1,0 +1,67 @@
+<div class="backdrop is-hidden" id="buy-now-modal">
+  <div class="buy-now-modal">
+    <button class="modal__button-close close-button">
+      <svg class="modal__button-close__icon">
+        <use href="/img/icons/sprite.svg#icon-modal-close-btn"></use>
+      </svg>
+    </button>
+    <h2 class="modal__title">Buy now</h2>
+    <ul class="buy-now-modal__list">
+      <li class="buy-now-modal__item">
+        <img
+          srcset="
+            /img/products/products-ice-cream.png    1x,
+            /img/products/products-ice-cream@2x.png 2x
+          "
+          src="#"
+          alt="ice cream"
+          class="buy-now-modal__img"
+        />
+        <h3 class="buy-now-modal__item__title">ice cream</h3>
+      </li>
+      <li class="buy-now-modal__item">
+        <img
+          srcset="
+            /img/products/products-ice-coffee.png    1x,
+            /img/products/products-ice-coffee@2x.png 2x
+          "
+          src="#"
+          alt="ice coffee"
+          class="buy-now-modal__img"
+        />
+        <h3 class="buy-now-modal__item__title">ice coffee</h3>
+      </li>
+      <li class="buy-now-modal__item">
+        <img
+          srcset="
+            /img/products/products-milkshakes.png    1x,
+            /img/products/products-milkshakes@2x.png 2x
+          "
+          src="#"
+          alt="milkshakes"
+          class="buy-now-modal__img"
+        />
+        <h3 class="buy-now-modal__item__title">milkshake</h3>
+      </li>
+    </ul>
+    <form class="buy-now-modal__from">
+      <input
+        type="text"
+        class="buy-now-modal__form__input"
+        placeholder="Name"
+      />
+      <input
+        type="tel"
+        class="buy-now-modal__form__input"
+        placeholder="Phone"
+      />
+      <textarea
+        class="buy-now-modal__form__textarea"
+        name="comment"
+        placeholder="Comment"
+        rows="3"
+      ></textarea>
+      <button class="buy-now-modal__button" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
