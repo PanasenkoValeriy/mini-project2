@@ -1,11 +1,11 @@
 {
-  "name": "ice-cream",
+  "name": "mini-project2",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/ice-cream/",
+    "build": "vite build --base=/mini-project2/",
     "preview": "vite preview"
   },
   "devDependencies": {
