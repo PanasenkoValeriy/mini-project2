@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/mini-project2/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Cream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:opsz,wght@14..32,500&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="module" crossorigin src="/mini-project2/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/mini-project2/assets/vendor-jOd-NI4E.js">
+    <link rel="stylesheet" crossorigin href="/mini-project2/assets/vendor-wjhWB3DI.css">
+    <link rel="stylesheet" crossorigin href="/mini-project2/assets/index-CPJbGiVQ.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <a href="index.html" class="header__logo__link">
+      <svg class="header__logo__icon">
+        <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-logo"></use>
+      </svg>
+    </a>
+    <nav class="header__nav">
+      <ul class="header__nav__list">
+        <li class="header__nav__item">
+          <a href="index.html" class="header__nav__link">Home</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="#how-made" class="header__nav__link">How it’s made?</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="#products" class="header__nav__link">Our products</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="#footer" class="header__nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__tablet__buttons__thumb">
+      <button type="button" class="header__burger__button" data-menu-button>
+        <svg class="header__burger__button__icon">
+          <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-burger-btn"></use>
+        </svg>
+      </button>
+      <button type="button" class="header__button" data-modal="buy-now-modal">
+        Buy now
+        <svg class="header__button__icon">
+          <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-arrow-right-bold"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <section class="hero">
+  <div class="container">
+    <h1 class="hero__title">
+      ice cream made with <span class="hero__title--sized">passion</span>
+    </h1>
+    <div class="hero__links__thumb">
+      <button
+        type="button"
+        class="hero__products__button"
+        data-modal="product-modal"
+      >
+        Products
+      </button>
+      <a href="#how-made" class="hero__how-made__link">How it’s made?</a>
+    </div>
+    <div class="hero__content__image__thumb">
+      <img
+        srcset="/mini-project2/assets/ice-cream-plate-ByIpnZX3.png 1x, /mini-project2/assets/ice-cream-plate@2x-CJA3HzuD.png 2x"
+        src="#"
+        alt="ice cream plate"
+        class="hero__content__image"
+      />
+      <div class="hero__content__thumb">
+        <p class="hero__content__text">
+          Indulge in a scoop of ice cream made with passion and treat your taste
+          buds to an unforgettable experience!
+        </p>
+        <a href="#" class="hero__content__link">
+          <svg class="hero__content__link__icon">
+            <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero__statistics__thumb">
+      <div>
+        <p class="hero__statistics__number">16</p>
+        <p class="hero__statistics__text">cafes</p>
+      </div>
+      <div>
+        <p class="hero__statistics__number">23</p>
+        <p class="hero__statistics__text">food trucks</p>
+      </div>
+    </div>
+    <picture>
+      <source
+        srcset="/mini-project2/assets/hero-main-desktop-C0gy93Su.png 1x, /mini-project2/assets/hero-main-desktop@2x-C3sBysbr.png 2x"
+        media="(min-width: 1200px)"
+      />
+      <source
+        srcset="/mini-project2/assets/hero-main-tablet-Bb3PbcQ8.png 1x, /mini-project2/assets/hero-main-tablet@2x-CQ8tSC6T.png 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/mini-project2/assets/hero-main-mobile-B571M0Q1.png 1x, /mini-project2/assets/hero-main-mobile@2x-Bg633zfA.png 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        class="hero__main__img"
+        src="#"
+        alt="ice cream"
+        data-aos="fade-left"
+      />
+    </picture>
+    <picture>
+      <source srcset="/mini-project2/assets/dots-desktop-DYFcIyJE.png" media="(min-width: 1200px)" />
+      <source srcset="/mini-project2/assets/dots-tablet-_dQkpfEb.png" media="(min-width: 768px)" />
+      <source srcset="/mini-project2/assets/dots-mobile-CXjfBsow.png" media="(max-width: 767px)" />
+      <img class="hero__dots__img" src="#" alt="ice cream" />
+    </picture>
+  </div>
+</section>
+
+      <section class="products" id="products">
+  <div class="container">
+    <p class="products__subtitle">100% natural</p>
+    <h2 class="products__title">products</h2>
+    <ul class="products__card-list">
+      <li class="products__card-item" data-aos="fade-up">
+        <img
+          srcset="/mini-project2/assets/products-ice-cream-DF_tCmcm.png 1x, /mini-project2/assets/products-ice-cream@2x-oS4S6fi4.png 2x"
+          src="#"
+          alt="ice cream"
+          class="products__card-img"
+        />
+        <div>
+          <h3 class="products__card-title">ice cream</h3>
+          <p class="products__card-text">
+            Soft ice cream with a delicate taste. Made with milk, cream, sugar
+            and natural stabilizer
+          </p>
+        </div>
+
+        <a href="" class="products__card-link">
+          <svg class="products__card-icon">
+            <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="products__card-item" data-aos="fade-up">
+        <img
+          srcset="/mini-project2/assets/products-ice-coffee-D3iEKhWp.png 1x, /mini-project2/assets/products-ice-coffee@2x-iSnBE_8-.png 2x"
+          src="#"
+          alt="ice coffee"
+          class="products__card-img"
+        />
+        <div>
+          <h3 class="products__card-title">ice coffee</h3>
+          <p class="products__card-text">
+            Fragrant invigorating drink created from 100% natural ingredients
+            without the use of preservatives and flavor enhancers
+          </p>
+        </div>
+        <a href="" class="products__card-link">
+          <svg class="products__card-icon">
+            <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="products__card-item" data-aos="fade-up">
+        <img
+          srcset="/mini-project2/assets/products-milkshakes-CvVrwKIk.png 1x, /mini-project2/assets/products-milkshakes@2x-CTOfawO5.png 2x"
+          src="#"
+          alt="milkshakes"
+          class="products__card-img"
+        />
+        <div>
+          <h3 class="products__card-title">milkshakes</h3>
+          <p class="products__card-text">
+            Sweet drinks based on milk and ice cream, supplemented with syrups,
+            fruits, berries and other sweets of your choice
+          </p>
+        </div>
+        <a href="" class="products__card-link">
+          <svg class="products__card-icon">
+            <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="how-made" id="how-made">
+  <div class="container">
+    <p class="how-made__subtitle">tradition and love</p>
+    <h2 class="how-made__title">how it’s made?</h2>
+    <div class="how-made__content__thumb">
+      <img
+        srcset="/mini-project2/assets/how-made-cow-DAsPfL2-.png 1x, /mini-project2/assets/how-made-cow@2x-z6X3Nvvi.png 2x"
+        src="#"
+        alt="cow"
+        class="how-made__content__image"
+      />
+      <div>
+        <div class="how-made__content__text__thumb">
+          <p class="how-made__content__text">
+            Ice is a place where you will become not only a little happier, but
+            also healthier. Health is the main value for us, and we follow it
+            when creating our handmade desserts.
+          </p>
+          <p class="how-made__content__text">
+            We use traditional recipes and 100% natural ingredients. Our
+            products are so natural that they can be given to children from the
+            age of three years. Sweets lovers can expect 55 types of ice cream,
+            15 types of coffee and 23 milkshakes.
+          </p>
+          <p class="how-made__content__text">
+            This is enough to choose ice cream and coffee for any mood!
+          </p>
+        </div>
+        <button class="how-made__content__button" data-modal="read-more-modal">
+          Read more
+          <svg class="how-made__content__button__icon">
+            <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-arrow-right-bold"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <ul class="how-made__statistics__list">
+      <li class="how-made__statistics__item">
+        <div class="how-made__statistics__icon--bcg">
+          <img
+            class="how-made__statistics__icon"
+            src="/mini-project2/assets/cow-Ci16b_Fd.svg"
+            alt=""
+          />
+        </div>
+        <p class="how-made__statistics__numbers">721</p>
+        <p class="how-made__statistics__text">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+      <li class="how-made__statistics__item">
+        <div class="how-made__statistics__icon--bcg">
+          <img
+            class="how-made__statistics__icon"
+            src="data:image/svg+xml,%3csvg%20width='36'%20height='36'%20viewBox='0%200%2036%2036'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M15.9495%200.615292C11.4785%201.27834%207.79691%203.76071%206.4423%207.01123C6.01016%208.03814%205.89381%208.66884%205.89381%209.90598C5.90212%2010.8197%205.93536%2011.1593%206.07664%2011.6525C6.36751%2012.6228%206.57527%2013.1161%207.00742%2013.8115L7.40632%2014.4583L6.95755%2015.0082C3.40897%2019.4231%203.01837%2025.633%205.97691%2030.525C7.08221%2032.3605%208.88559%2034.1637%2010.6474%2035.2148L11.171%2035.5221L18.3346%2035.4655L25.5066%2035.4008L25.8473%2035.2148C27.0357%2034.5437%2028.7144%2033.0478%2029.6535%2031.8349C31.0663%2029.9913%2031.9888%2027.8405%2032.3794%2025.5118C32.5123%2024.6789%2032.5123%2022.2127%2032.3711%2021.4284C31.9472%2019.0107%2031.0414%2016.9407%2029.612%2015.1052C29.3377%2014.7575%2029.1217%2014.4664%2029.1217%2014.4422C29.1217%2014.426%2029.2712%2014.1753%2029.4458%2013.8923C29.853%2013.2455%2030.2186%2012.4126%2030.4181%2011.6849C30.6425%2010.8763%2030.6425%208.85482%2030.4181%208.04623C29.6203%205.17574%2027.2269%202.78231%2023.8445%201.46431C22.8971%201.09236%2021.2765%200.696152%2020.2294%200.566776C19.2571%200.453575%2016.8554%200.477833%2015.9495%200.615292ZM21.0106%201.93329C25.4484%202.79848%2028.6978%205.51534%2029.2962%208.8629C29.4291%209.61489%2029.346%2010.8925%2029.1217%2011.604C28.8973%2012.2994%2028.4818%2013.1161%2027.9914%2013.8115C27.792%2014.0945%2027.6258%2014.4179%2027.6258%2014.523C27.6258%2014.6281%2027.8003%2014.9031%2028.0496%2015.178C30.1272%2017.4825%2031.2242%2020.3691%2031.2242%2023.4903C31.2159%2027.04%2029.853%2030.1531%2027.2269%2032.595C26.7781%2033.0155%2026.1382%2033.5411%2025.7975%2033.7675L25.1742%2034.1879L18.3014%2034.2122L11.4369%2034.2445L10.905%2033.9049C8.977%2032.6516%207.24011%2030.5816%206.27609%2028.3823C5.06276%2025.6007%204.9381%2022.3744%205.92705%2019.4797C6.45061%2017.9757%207.14869%2016.7467%208.21244%2015.4529C8.64458%2014.9354%208.84404%2014.6281%208.84404%2014.4826C8.84404%2014.3613%208.62796%2013.9651%208.34541%2013.5527C7.34815%2012.1053%206.94093%2010.4963%207.18194%208.97611C7.43125%207.43979%208.12933%206.17839%209.41746%204.92507C11.0962%203.29981%2013.4397%202.22438%2016.1905%201.82009C17.3291%201.65029%2019.8471%201.71497%2021.0106%201.93329Z'%20fill='black'/%3e%3cpath%20d='M16.3229%203.35635C12.9155%203.91428%2010.2479%205.80638%209.37527%208.28875C9.17582%208.84667%209.14258%209.06499%209.14258%209.86549C9.14258%2010.666%209.17582%2010.8843%209.37527%2011.4422C9.49993%2011.798%209.73262%2012.2913%209.89052%2012.5419C10.3227%2013.2373%2010.5138%2013.2616%2011.3698%2012.7441C12.6496%2011.9597%2014.1206%2011.3856%2015.6497%2011.0703C16.6802%2010.8601%2018.6581%2010.7792%2019.78%2010.9086C21.5335%2011.1107%2023.4366%2011.7414%2024.9575%2012.639C25.3896%2012.8896%2025.8301%2013.0999%2025.9381%2013.0999C26.5697%2013.0999%2027.3758%2011.2805%2027.3758%209.86549C27.3758%206.72008%2024.3674%204.02748%2020.1041%203.35635C19.1983%203.2108%2017.1955%203.2108%2016.3229%203.35635ZM20.4365%204.65009C21.866%204.95736%2023.179%205.53954%2024.168%206.3077C25.4976%207.33461%2026.2123%208.76581%2026.096%2010.1485C26.0544%2010.6983%2025.8467%2011.4422%2025.722%2011.5231C25.6888%2011.5393%2025.2234%2011.3452%2024.6915%2011.0865C23.5862%2010.5528%2022.3313%2010.1242%2021.0598%209.84932C20.287%209.68761%2019.9628%209.66335%2018.2343%209.67143C16.5306%209.67143%2016.1733%209.69569%2015.4336%209.84932C14.1538%2010.1242%2013.1565%2010.4639%2011.9266%2011.046C10.6883%2011.6363%2010.7548%2011.6444%2010.5304%2010.9167C10.2396%209.97061%2010.4224%208.7173%2010.9875%207.77125C11.2867%207.26992%2012.1094%206.43708%2012.7078%206.0247C13.8463%205.24036%2014.8436%204.88458%2016.9877%204.49646C17.4281%204.4156%2019.8714%204.5288%2020.4365%204.65009Z'%20fill='black'/%3e%3cpath%20d='M19.0827%2015.0808C18.85%2015.3719%2018.85%2015.6468%2019.091%2015.8813C19.2489%2016.035%2019.4068%2016.0754%2019.9802%2016.1158C21.0938%2016.1967%2022.1576%2016.5201%2023.1133%2017.07C23.7947%2017.4743%2024.8335%2018.4526%2025.2989%2019.1561C25.9887%2020.1669%2026.4624%2021.6142%2026.4624%2022.6816C26.4624%2023.0535%2026.4956%2023.1667%2026.6702%2023.3284C26.9361%2023.5953%2027.2851%2023.5953%2027.5428%2023.3284C27.7256%2023.1425%2027.7339%2023.0939%2027.684%2022.3015C27.4513%2018.388%2024.1022%2015.1213%2020.0966%2014.9029L19.2655%2014.8544L19.0827%2015.0808Z'%20fill='black'/%3e%3c/svg%3e"
+            alt=""
+          />
+        </div>
+        <p class="how-made__statistics__numbers">16kg</p>
+        <p class="how-made__statistics__text">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+      <li class="how-made__statistics__item">
+        <div class="how-made__statistics__icon--bcg">
+          <img
+            class="how-made__statistics__icon"
+            src="/mini-project2/assets/ice-crema-DTUsGm-M.svg"
+            alt=""
+          />
+        </div>
+        <p class="how-made__statistics__numbers">84</p>
+        <p class="how-made__statistics__text">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="reviews">
+  <div class="swiper">
+    <ul class="reviews__list swiper-wrapper">
+      <li class="reviews__item swiper-slide">
+        <img
+          srcset="/mini-project2/assets/review-bcg-1-BENgHVcD.jpg 1x, /mini-project2/assets/review-bcg-1@2x-B0Sn7rgn.jpg 2x"
+          src="#"
+          alt="ice cream"
+          class="reviews__bcg__image"
+        />
+        <img
+          srcset="/mini-project2/assets/review-user-1-Bf0TdKDi.png 1x, /mini-project2/assets/review-user-1@2x-yodq40wQ.png 2x"
+          src="#"
+          alt="user"
+          class="reviews__user__image"
+        />
+        <p class="reviews__text">
+          I love visiting your cafe. You prepare the most delicious ice cream in
+          Los Angeles! In addition, you have beautiful serving, cozy atmosphere
+          and polite staff.
+        </p>
+        <p class="reviews__location">Emily, Los Angeles</p>
+      </li>
+      <li class="reviews__item swiper-slide">
+        <img
+          srcset="/mini-project2/assets/review-bcg-2-XhJ8LZLL.jpg 1x, /mini-project2/assets/review-bcg-2@2x-CfHfHNVK.jpg 2x"
+          src="#"
+          alt="ice cream"
+          class="reviews__bcg__image"
+        />
+        <img
+          srcset="/mini-project2/assets/review-user-2-BpnxpkD_.png 1x, /mini-project2/assets/review-user-2@2x-Kjsh8VCN.png 2x"
+          src="#"
+          alt="user"
+          class="reviews__user__image"
+        />
+        <p class="reviews__text">
+          Every day we come to you with friends after classes in college. We
+          love your ice cream and casual atmosphere!
+        </p>
+        <p class="reviews__location">Bryan, New-York</p>
+      </li>
+      <li class="reviews__item swiper-slide">
+        <img
+          srcset="/mini-project2/assets/review-bcg-3-YzXzPOio.jpg 1x, /mini-project2/assets/review-bcg-3@2x-CEeiafHO.jpg 2x"
+          src="#"
+          alt="ice cream"
+          class="reviews__bcg__image"
+        />
+        <img
+          srcset="/mini-project2/assets/review-user-3-G8jNsxh9.png 1x, /mini-project2/assets/review-user-3@2x-CPkPRwaC.png 2x"
+          src="#"
+          alt="user"
+          class="reviews__user__image"
+        />
+        <p class="reviews__text">
+          Ice cream is my passion! I love your chocolate hazelnut ice cream! And
+          I really like the excellent service - always served politely and
+          quickly!
+        </p>
+        <p class="reviews__location">Diana, Chicago</p>
+      </li>
+    </ul>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer" id="footer">
+  <div class="container">
+    <ul class="footer__list">
+      <li class="footer__item">
+        <h3 class="footer__item__title">CAFE</h3>
+        <p class="footer__item__city">Chicago</p>
+        <a href="https://maps.app.goo.gl/XRw9imSKuu6UH6KeA" class="footer__item__address" target="_blank"
+          rel="noopener noreferrer">
+          10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA
+        </a>
+        <ul class="footer__item__schedule__list">
+          <li class="footer__item__schedule___item">
+            <p class="footer__item__schedule__date">Monday - Friday</p>
+            <p class="footer__item__schedule__time">06:00 AM - 10:00 PM</p>
+          </li>
+          <li class="footer__item__schedule___item">
+            <p class="footer__item__schedule__date">Saturday - Sunday</p>
+            <p class="footer__item__schedule__time">08:00 AM - 16:00 PM</p>
+          </li>
+        </ul>
+        <a href="tel:+610383766284" class="footer__item__contacts">+61(0) 383 766 284</a>
+        <a href="mailto:noreply@envato.com" class="footer__item__contacts">noreply@envato.com</a>
+      </li>
+      <li class="footer__item">
+        <h3 class="footer__item__title">FOODTRUCK</h3>
+        <p class="footer__item__city">Los Angeles</p>
+        <a href="https://maps.app.goo.gl/cJkpnkN7B1UGHRQ36" class="footer__item__address" target="_blank"
+          rel="noopener noreferrer">
+          1003 Manhattan Ave, Manhattan Beach, CA 90263, USA
+        </a>
+        <ul class="footer__item__schedule__list">
+          <li class="footer__item__schedule___item">
+            <p class="footer__item__schedule__date">Monday - Friday</p>
+            <p class="footer__item__schedule__time">06:00 AM - 10:00 PM</p>
+          </li>
+          <li class="footer__item__schedule___item">
+            <p class="footer__item__schedule__date">Saturday - Sunday</p>
+            <p class="footer__item__schedule__time">08:00 AM - 16:00 PM</p>
+          </li>
+        </ul>
+        <a href="tel:+610383766284" class="footer__item__contacts">+61(0) 383 766 284</a>
+        <a href="mailto:noreply@envato.com" class="footer__item__contacts">noreply@envato.com</a>
+      </li>
+      <li class="footer__item">
+        <h3 class="footer__item__title">CAFE</h3>
+        <p class="footer__item__city">New York</p>
+        <a href="https://maps.app.goo.gl/qXEo3KhJg6Az17kJ8" class="footer__item__address" target="_blank"
+          rel="noopener noreferrer">
+          726 Sterling Pl, Brooklyn, NY 11222, USA
+        </a>
+        <ul class="footer__item__schedule__list">
+          <li class="footer__item__schedule___item">
+            <p class="footer__item__schedule__date">Monday - Friday</p>
+            <p class="footer__item__schedule__time">06:00 AM - 10:00 PM</p>
+          </li>
+          <li class="footer__item__schedule___item">
+            <p class="footer__item__schedule__date">Saturday - Sunday</p>
+            <p class="footer__item__schedule__time">08:00 AM - 16:00 PM</p>
+          </li>
+        </ul>
+        <a href="tel:+610383766284" class="footer__item__contacts">+61(0) 383 766 284</a>
+        <a href="mailto:noreply@envato.com" class="footer__item__contacts">noreply@envato.com</a>
+      </li>
+    </ul>
+    <div class="footer__button__thumb">
+      <button class="footer__button footer__button__location" data-modal="location-modal">
+        Our Locations
+        <svg class="footer__button__icon">
+          <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-arrow-right-bold"></use>
+        </svg>
+      </button>
+      <button class="footer__button footer__button__franchise" data-modal="franchise-modal">
+        Franchise
+        <svg class="footer__button__icon">
+          <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-arrow-right-bold"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="footer__contacts__thumb">
+      <div>
+        <h3 class="footer__subtitle">homemade ice cream made</h3>
+        <h4 class="footer__subtitle--sized">with passion</h4>
+      </div>
+      <div class="footer__social__contacts__thumb">
+        <ul class="footer__social-contacts__list">
+          <li class="footer__social-contacts__item">
+            <a href="https://github.com/PanasenkoValeriy/mini-project2" class="footer__social-contacts__link"
+              target="_blank" rel="noopener noreferrer">
+              <svg class="footer__social-contacts__icon" width="48" height="48" viewBox="0 0 32 32">
+                <path class="icon-fill"
+                  d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+                <path class="icon-stroke"
+                  d="M16 6.588c-5.169 0-9.412 4.242-9.412 9.412 0 4.411 3.095 8.419 7.206 9.412v-3.114c-0.407 0.089-0.782 0.092-1.197-0.030-0.556-0.164-1.008-0.535-1.344-1.1-0.214-0.361-0.593-0.752-0.988-0.723l-0.097-1.099c0.855-0.073 1.595 0.521 2.034 1.259 0.195 0.328 0.419 0.52 0.708 0.605 0.278 0.082 0.578 0.043 0.926-0.080 0.088-0.698 0.407-0.959 0.648-1.326v-0.001c-2.451-0.366-3.428-1.666-3.816-2.693-0.514-1.363-0.238-3.066 0.671-4.142 0.018-0.021 0.050-0.076 0.037-0.114-0.417-1.258 0.091-2.299 0.11-2.41 0.481 0.142 0.559-0.143 2.089 0.786l0.264 0.159c0.111 0.066 0.076 0.028 0.186 0.020 0.639-0.173 1.312-0.269 1.975-0.278 0.668 0.009 1.337 0.104 2.002 0.285l0.086 0.009c-0.007-0.001 0.023-0.005 0.075-0.036 1.911-1.157 1.842-0.779 2.355-0.946 0.019 0.111 0.519 1.169 0.107 2.411-0.056 0.171 1.657 1.739 0.708 4.256-0.388 1.027-1.365 2.328-3.816 2.693v0.001c0.314 0.479 0.692 0.734 0.69 1.722v3.887c4.111-0.993 7.206-5 7.206-9.412 0-5.169-4.242-9.412-9.412-9.412v0z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-contacts__item">
+            <a href="https://t.me/username" class="footer__social-contacts__link" target="_blank"
+              rel="noopener noreferrer">
+              <svg class="footer__social-contacts__icon" width="48" height="48" viewBox="0 0 32 32">
+                <path class="icon-fill"
+                  d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+                <path class="icon-stroke"
+                  d="M12.868 18.375l-0.318 4.169c0.454 0 0.651-0.182 0.887-0.401l2.13-1.9 4.415 3.017c0.81 0.421 1.38 0.199 1.599-0.695l2.898-12.672 0.001-0.001c0.257-1.117-0.433-1.554-1.222-1.28l-17.032 6.086c-1.162 0.421-1.145 1.026-0.198 1.3l4.355 1.264 10.115-5.907c0.476-0.294 0.909-0.131 0.553 0.163l-8.182 6.857z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-contacts__item">
+            <a href="https://www.facebook.com/" class="footer__social-contacts__link" target="_blank"
+              rel="noopener noreferrer">
+              <svg class="footer__social-contacts__icon" width="48" height="48" viewBox="0 0 32 32">
+                <path class="icon-fill"
+                  d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16c-8.837 0-16 7.163-16 16s7.163 16 16 16z"></path>
+                <path class="icon-stroke"
+                  d="M20.446 15.982h-2.61v9.619h-3.955v-9.619h-1.881v-3.38h1.881v-2.187c0-1.564 0.739-4.014 3.99-4.014l2.929 0.012v3.281h-2.125c-0.349 0-0.839 0.175-0.839 0.921v1.989h2.955l-0.346 3.377z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="footer__phone-contact">
+          Feel free to contactt
+          <a href="tel:+610383766284" class="footer__phone">+61 (0) 383 766 284 Valerii</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer__copyrights__thumb">
+      <p class="footer__copyrights">&#169; 2025 - IceCream.</p>
+      <p class="footer__copyrights">All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    <!-- COMPONENTS -->
+    <div class="mobile-menu" data-menu>
+  <a href="/index.html" class="mobile-menu__logo__link">
+    <svg class="header__logo__icon">
+      <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-logo"></use>
+    </svg>
+  </a>
+  <button class="mobile-menu__close-btn" data-menu-close>
+    <svg class="mobile-menu__close-btn__icon">
+      <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-close"></use>
+    </svg>
+  </button>
+  <nav class="mobile-menu__nav">
+    <ul class="mobile-menu__list">
+      <li class="mobile-menu__item">
+        <a href="#" class="mobile-menu__link">Home</a>
+      </li>
+      <li class="mobile-menu__item">
+        <a href="#" class="mobile-menu__link">How it’s made?</a>
+      </li>
+      <li class="mobile-menu__item">
+        <a href="#" class="mobile-menu__link">Our products</a>
+      </li>
+      <li class="mobile-menu__item">
+        <a href="#" class="mobile-menu__link">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <button type="button" class="mobile-menu__button" data-modal="buy-now-modal">
+    Buy now
+    <svg class="mobile-menu__button__icon">
+      <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-arrow-right-bold"></use>
+    </svg>
+  </button>
+</div>
+
+    <div class="backdrop is-hidden" id="franchise-modal">
+  <div class="franchise-modal">
+    <button class="modal__button-close close-button">
+      <svg class="modal__button-close__icon">
+        <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-modal-close-btn"></use>
+      </svg>
+    </button>
+    <h2 class="modal__title">
+      Thank you for your interest in owning an Ice Cream shop
+    </h2>
+    <p class="franchise-modal__text">
+      Due to the overwhelming volume of franchise requests we are not accepting
+      new franchisee applications at this time. Once the application process
+      resumes, we will contact you for further information. Please fill out the
+      contact information below and we will reach out for additional
+      information. We appreciate your patience.
+    </p>
+    <form class="franchise-modal__from">
+      <input
+        type="text"
+        class="franchise-modal__form__input"
+        placeholder="Name"
+      />
+      <input
+        type="tel"
+        class="franchise-modal__form__input"
+        placeholder="Phone"
+      />
+      <input
+        type="email"
+        class="franchise-modal__form__input"
+        placeholder="Email"
+      />
+      <textarea
+        class="franchise-modal__form__textarea"
+        name="comment"
+        placeholder="Comment"
+        rows="3"
+      ></textarea>
+      <button class="franchise-modal__button" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+    <div class="backdrop is-hidden" id="read-more-modal">
+  <div class="read-more-modal">
+    <button class="modal__button-close close-button" id="read-more-close">
+      <svg class="modal__button-close__icon">
+        <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-modal-close-btn"></use>
+      </svg>
+    </button>
+    <h2 class="modal__title">How it’s made?</h2>
+    <div class="read-more-modal__video">
+      <iframe
+        class="video-frame"
+        src="https://www.youtube.com/embed/bDDazMFfW2g?si=hqIGH89Can0-XtYW&"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <button class="play__button">
+        <svg class="play__button__icon">
+          <use href="/mini-project2/assets/symbol-defs-BdlVQMvU.svg#icon-play"></use>
+        </svg>
+      </button>
+    </div>
+    <p class="read-more-modal__text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+    </p>
+  </div>
+</div>
+
+    <div class="backdrop is-hidden" id="location-modal">
+  <div class="location-modal">
+    <button class="modal__button-close close-button">
+      <svg class="modal__button-close__icon">
+        <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-modal-close-btn"></use>
+      </svg>
+    </button>
+    <h2 class="modal__title">Our Locations</h2>
+    <div class="location__map__thumb">
+      <iframe
+        class="location__map__iframe"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13930.780402637803!2d-80.12661756618307!3d25.81497899360377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b367b8cc2ad9%3A0xe5fa8be013d65531!2s36th%20Street%20Park!5e0!3m2!1suk!2sua!4v1735605571441!5m2!1suk!2sua"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <a
+      class="location__button"
+      href="https://maps.app.goo.gl/H7nXNgQ6xDkyp7jo9"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Open map</a
+    >
+  </div>
+</div>
+
+    <div class="backdrop is-hidden" id="buy-now-modal">
+  <div class="buy-now-modal">
+    <button class="modal__button-close close-button">
+      <svg class="modal__button-close__icon">
+        <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-modal-close-btn"></use>
+      </svg>
+    </button>
+    <h2 class="modal__title">Buy now</h2>
+    <ul class="buy-now-modal__list">
+      <li class="buy-now-modal__item">
+        <img
+          srcset="/mini-project2/assets/products-ice-cream-DF_tCmcm.png 1x, /mini-project2/assets/products-ice-cream@2x-oS4S6fi4.png 2x"
+          src="#"
+          alt="ice cream"
+          class="buy-now-modal__img"
+        />
+        <h3 class="buy-now-modal__item__title">ice cream</h3>
+      </li>
+      <li class="buy-now-modal__item">
+        <img
+          srcset="/mini-project2/assets/products-ice-coffee-D3iEKhWp.png 1x, /mini-project2/assets/products-ice-coffee@2x-iSnBE_8-.png 2x"
+          src="#"
+          alt="ice coffee"
+          class="buy-now-modal__img"
+        />
+        <h3 class="buy-now-modal__item__title">ice coffee</h3>
+      </li>
+      <li class="buy-now-modal__item">
+        <img
+          srcset="/mini-project2/assets/products-milkshakes-CvVrwKIk.png 1x, /mini-project2/assets/products-milkshakes@2x-CTOfawO5.png 2x"
+          src="#"
+          alt="milkshakes"
+          class="buy-now-modal__img"
+        />
+        <h3 class="buy-now-modal__item__title">milkshake</h3>
+      </li>
+    </ul>
+    <form class="buy-now-modal__from">
+      <input
+        type="text"
+        class="buy-now-modal__form__input"
+        placeholder="Name"
+      />
+      <input
+        type="tel"
+        class="buy-now-modal__form__input"
+        placeholder="Phone"
+      />
+      <textarea
+        class="buy-now-modal__form__textarea"
+        name="comment"
+        placeholder="Comment"
+        rows="3"
+      ></textarea>
+      <button class="buy-now-modal__button" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+    <div class="backdrop is-hidden" id="product-modal">
+  <div class="product-modal">
+    <button class="modal__button-close close-button">
+      <svg class="modal__button-close__icon">
+        <use href="/mini-project2/assets/sprite-3YyLtUO9.svg#icon-modal-close-btn"></use>
+      </svg>
+    </button>
+    <h2 class="modal__title product-modal__title">Chololate icecream</h2>
+    <img
+      srcset="/mini-project2/assets/ingredients-Lg8MReMv.png 1x, /mini-project2/assets/ingredients@2x-CWMqrPEn.png 2x"
+      src="#"
+      alt="ice cream"
+      class="product-modal__img"
+    />
+    <ul class="product-modal__substance__list">
+      <li class="product-modal__substance__item">
+        <p class="product-modal__substance__number">320</p>
+        <p class="product-modal__substance__text">kcal</p>
+      </li>
+      <li class="product-modal__substance__item">
+        <p class="product-modal__substance__number">4g</p>
+        <p class="product-modal__substance__text">Prote...</p>
+      </li>
+      <li class="product-modal__substance__item">
+        <p class="product-modal__substance__number">8,2g</p>
+        <p class="product-modal__substance__text">Fats</p>
+      </li>
+      <li class="product-modal__substance__item">
+        <p class="product-modal__substance__number">40,4g</p>
+        <p class="product-modal__substance__text">Carbs</p>
+      </li>
+    </ul>
+    <h3 class="product-modal__subtitle">Ingredients</h3>
+    <ul class="product-modal__ingredients__list">
+      <li class="product-modal__ingredients__item">
+        <p class="product-modal__ingredients__text">Milk</p>
+        <p class="product-modal__ingredients__text">100ml</p>
+      </li>
+      <li class="product-modal__ingredients__item">
+        <p class="product-modal__ingredients__text">Belgian chocolate</p>
+        <p class="product-modal__ingredients__text">20g</p>
+      </li>
+      <li class="product-modal__ingredients__item">
+        <p class="product-modal__ingredients__text">Cream</p>
+        <p class="product-modal__ingredients__text">150 ml</p>
+      </li>
+      <li class="product-modal__ingredients__item">
+        <p class="product-modal__ingredients__text">Cocoa powder</p>
+        <p class="product-modal__ingredients__text">30g</p>
+      </li>
+      <li class="product-modal__ingredients__item">
+        <p class="product-modal__ingredients__text">Sugar</p>
+        <p class="product-modal__ingredients__text">40g</p>
+      </li>
+      <li class="product-modal__ingredients__item">
+        <p class="product-modal__ingredients__text">Vanilla sugar</p>
+        <p class="product-modal__ingredients__text">10g</p>
+      </li>
+    </ul>
+    <form class="product-modal__from">
+      <input
+        type="text"
+        class="product-modal__form__input"
+        placeholder="Name"
+      />
+      <input
+        type="tel"
+        class="product-modal__form__input"
+        placeholder="Phone"
+      />
+      <textarea
+        class="product-modal__form__textarea"
+        name="comment"
+        placeholder="Comment"
+        rows="4"
+      ></textarea>
+      <button class="product-modal__button" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1500,
+        mirror: true,
+      });
+    </script>
+  </body>
+</html>
